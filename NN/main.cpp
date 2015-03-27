@@ -77,10 +77,6 @@ int main()
 	for (int i = 0 ; i < P.m_Pop.size() ; i++)
 	cout << P.m_Pop[i].score << endl;
 
-
-
-
-
 	string xo = "";
 	cout << "Play as Naughts or Crosses? Crosses move first. (x/o) : ";
 	getline(cin,xo);
